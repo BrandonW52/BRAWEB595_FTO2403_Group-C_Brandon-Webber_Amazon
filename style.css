@@ -1,0 +1,49 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+  & a {
+    color: white;
+  }
+}
+
+.header-section {
+  background-color: rgb(38, 38, 54);
+  > img {
+    width: 150px;
+    padding: 10px 0 10px 20px;
+  }
+}
+nav {
+  background-color: rgb(55, 55, 58);
+  padding: 5px 0 5px 20px;
+  > a {
+    padding-right: 20px;
+
+    text-decoration: none;
+  }
+}
+
+.main-content {
+  margin: 25px 20px;
+}
+
+.orange-div {
+  background-color: orange;
+  text-align: center;
+  > p {
+    padding: 10px;
+  }
+}
+
+.guides-div {
+  background-image: url(./assets/bg-image.png);
+  /* background-size: fill;
+  object-fit: contain;
+ */
+
+  text-align: center;
+  background-size: 95% 75%;
+  padding: 30px;
+}
