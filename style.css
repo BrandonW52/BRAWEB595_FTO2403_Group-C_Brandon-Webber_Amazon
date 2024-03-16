@@ -3,9 +3,7 @@ body {
   margin: 0;
   padding: 0;
   color: white;
-  & a {
-    color: white;
-  }
+  background-color: lightgray;
 }
 
 .header-section {
@@ -20,7 +18,7 @@ nav {
   padding: 5px 0 5px 20px;
   > a {
     padding-right: 20px;
-
+    color: white;
     text-decoration: none;
   }
 }
@@ -46,4 +44,68 @@ nav {
   text-align: center;
   background-size: 95% 75%;
   padding: 30px;
+
+  margin-bottom: 30px;
+}
+
+.perfect-gift {
+  color: black;
+  background-color: white;
+  padding: 0 25px 10px 25px;
+  margin-bottom: 30px;
+}
+
+.gift-header {
+  display: flex;
+  align-items: center;
+  > a {
+    color: #408d8e;
+    text-decoration: none;
+    font-weight: 800;
+    padding-left: 2em;
+  }
+}
+
+.perfect-gift-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.perfect-gift-img {
+  border-radius: 8px;
+  width: 250px;
+  height: 300px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.game-gift {
+  color: black;
+  margin-bottom: 30px;
+
+  > a > img {
+    width: 100%;
+  }
+}
+
+.game-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  > a {
+    color: #408d8e;
+    text-decoration: none;
+    font-weight: 800;
+    padding-left: 2em;
+  }
+}
+
+.footer-logo {
+  background-color: rgb(38, 38, 54);
+  padding: 40px 0;
+  > img {
+    display: block;
+    width: 250px;
+    margin: 0 auto;
+  }
 }
